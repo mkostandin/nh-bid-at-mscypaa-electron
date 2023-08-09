@@ -20,6 +20,7 @@ function createWindow() {
     useContentSize: true,
     title: "NH Bid at MSCYPAA",
     backgroundColor: '#000000',
+    icon: __dirname + "/ms-store-icon.png",
     webPreferences: {
       // Allow Node.js API access in renderer process, as long
       // as we've not removed dependency on it and on "@electron/remote".
