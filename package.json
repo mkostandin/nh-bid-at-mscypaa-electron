@@ -1,0 +1,26 @@
+{
+  "name": "nh_32bid_32at_32mscypaa",
+  "main": "main.js",
+  "productName": "NH Bid at MSCYPAA",
+  "description": "NH Bid at MSCYPAA",
+  "author": "NH Bid for NECYPAA",
+  "version": "1.0.0",
+  "dependencies": {
+    
+    "@electron/remote": "^2.0.8"
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "18.2.2",
+    "electron-builder": "22.11.11"
+  },
+  "build": {
+    "appId": "store.nhbidconferencedash.www",
+    "directories": {
+      "buildResources": "buildResources"
+    }
+  }
+}
