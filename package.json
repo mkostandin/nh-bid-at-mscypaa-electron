@@ -21,6 +21,13 @@
     "appId": "store.nhbidconferencedash.www",
     "directories": {
       "buildResources": "buildResources"
+    },
+    "portable": {
+      "splashImage": "./portable-splash.png"
+    },
+    "win": {
+      "icon": "./ms-store-icon.ico",
+      "target": "portable"
     }
   }
 }
